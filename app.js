@@ -128,6 +128,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const cartItems = currentOutfit.map(item => item.querySelector('img').alt);
         alert(`Added to cart: ${cartItems.join(', ')}`);
-        // Here you would typically send this data to a backend server
     });
 }); 
